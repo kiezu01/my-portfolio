@@ -62,3 +62,23 @@ h1, h2, h3 {
 .contact-link:hover {
   color: #b982fc;
 }
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #b982fc;
+  box-shadow: 0 0 6px #0005;
+}
+
+.profile-text h2 {
+  margin: 0 0 0.5rem 0;
+  color: #e0d6f5;
+}
