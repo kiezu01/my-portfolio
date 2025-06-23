@@ -82,3 +82,24 @@ h1, h2, h3 {
   margin: 0 0 0.5rem 0;
   color: #e0d6f5;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Canh giữa trong khối header */
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.header-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #b982fc;
+  box-shadow: 0 0 6px #0004;
+}
+
+.header-title {
+  font-size: 2rem;
+  margin: 0;
+}
