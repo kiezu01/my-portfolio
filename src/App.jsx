@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Kiezu01 Portfolio</h1>
+        <h1>Kien Vu Trung Portfolio</h1>
         <nav>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
