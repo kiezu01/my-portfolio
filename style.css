@@ -82,24 +82,24 @@ h1, h2, h3 {
 }
 
 /* ================= HERO SECTION ================= */
+/* HERO LAYOUT */
 .hero {
   background: #2d014d;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   color: #fff;
 }
 
 .hero-container {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto 2rem;
 }
 
 .hero-avatar {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #b982fc;
@@ -108,32 +108,33 @@ h1, h2, h3 {
 
 .hero-info {
   flex: 1;
-  min-width: 250px;
 }
 
-.hero-info h1 {
+.name {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #b982fc;
 }
 
-.hero-info .job-title {
+.job-title {
+  margin: 0.5rem 0;
   font-weight: bold;
   color: #e0d6f5;
-  margin: 0.5rem 0;
 }
 
-.hero-info p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-/* ================= CONTACT CARDS ================= */
-.contact-cards {
+.about-me {
   margin-top: 1rem;
+  line-height: 1.6;
+  color: #e0d6f5;
+}
+
+/* CONTACT GRID */
+.contact-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 0.75rem;
+  max-width: 900px;
+  margin: auto;
 }
 
 .card {
@@ -146,21 +147,27 @@ h1, h2, h3 {
   overflow-wrap: break-word;
   white-space: normal;
   box-sizing: border-box;
+  color: #e0d6f5;
 }
 
 .card strong {
-  display: inline-block;
-  margin-bottom: 0.3rem;
+  display: block;
   color: #b982fc;
+  margin-bottom: 0.3rem;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 @media (max-width: 600px) {
   .hero-container {
     flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+  .hero-info {
+    align-items: center;
   }
   .contact-cards {
     grid-template-columns: 1fr;
   }
 }
+
