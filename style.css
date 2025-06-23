@@ -108,3 +108,52 @@ h1, h2, h3 {
     flex-direction: column;
   }
 }
+.hero {
+  background: #2d014d;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #b982fc;
+  box-shadow: 0 0 8px #0005;
+}
+
+.hero-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.job-title {
+  color: #b982fc;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contact-cards {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.5rem;
+}
+
+.card {
+  background: #1a1026;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #b982fc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
