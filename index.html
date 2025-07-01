@@ -4,142 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VU TRUNG KIEN | Data Analyst Portfolio</title>
-  <!-- Google Fonts for clean typography -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
-  <!-- Google Maps API (for contact section) -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY" async defer></script>
-  <link rel="stylesheet" crossorigin href="/my-portfolio/assets/index-BZBElOsE.css">
+  <link rel="stylesheet" crossorigin href="/my-portfolio/assets/index-B9NCMJuB.css">
 </head>
 <body>
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="hero-container">
-      <img src="/my-portfolio/assets/avatar-C9RnrK5q.jpg" alt="VU TRUNG KIEN" class="avatar">
-      <div class="hero-info">
-        <h1>VU TRUNG KIEN</h1>
-        <h2>Data Analyst | Reporting Specialist</h2>
-        <p>
-          Data Analyst with experience in data allocation, ETL tracking, and financial reporting in banking and debt collection sectors.<br>
-          Skilled in SQL (PostgreSQL), Excel, and automation scripts.
-        </p>
-        <div class="contact-cards">
-          <div class="contact-card">
-            <span class="icon">📧</span>
-            <span>Email:</span>
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
-          </div>
-          <div class="contact-card">
-            <span class="icon">📞</span>
-            <span>Phone:</span>
-            <a href="tel:+84386863268">+84-386-863-268</a>
-          </div>
-          <div class="contact-card">
-            <span class="icon">📍</span>
-            <span>Location:</span>
-            <span id="location-text">Ho Chi Minh City, Vietnam</span>
-          </div>
-          <div class="contact-card">
-            <span class="icon">🔗</span>
-            <span>LinkedIn:</span>
-            <a href="https://linkedin.com/in/kienvu68" target="_blank">linkedin.com/in/kienvu68</a>
-          </div>
-        </div>
+  <section class="profile-horizontal">
+    <!-- Avatar on the left -->
+    <div class="profile-section avatar-section">
+      <img src="/my-portfolio/assets/avatar-C9RnrK5q.jpg" alt="VU TRUNG KIEN" class="avatar-large">
+    </div>
+    <!-- Name & Title in the center -->
+    <div class="profile-section name-section">
+      <h1>VU TRUNG KIEN</h1>
+      <h2>Data Analyst | Reporting Specialist</h2>
+      <p class="summary">
+        Data Analyst with experience in data allocation, ETL tracking, and financial reporting in banking and debt collection sectors.<br>
+        Skilled in SQL (PostgreSQL), Excel, and automation scripts.
+      </p>
+    </div>
+    <!-- Contact on the right -->
+    <div class="profile-section contact-section">
+      <div class="contact-item">
+        <span class="contact-label">Email:</span>
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Phone:</span>
+        <a href="tel:+84386863268">+84-386-863-268</a>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Location:</span>
+        <span>Ho Chi Minh City, Vietnam</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">LinkedIn:</span>
+        <a href="https://linkedin.com/in/kienvu68" target="_blank">linkedin.com/in/kienvu68</a>
       </div>
     </div>
   </section>
-
-  <!-- ABOUT SECTION -->
-  <section id="about">
-    <h3>About Me</h3>
-    <p>
-      With over 5 years of experience in finance and banking, I specialize in transforming raw data into actionable insights for business growth and risk management. I excel in automating reporting processes and building data pipelines to support decision-making.
-    </p>
-  </section>
-
-  <!-- SKILLS SECTION -->
-  <section id="skills">
-    <h3>Skills</h3>
-    <ul class="skills-list">
-      <li>SQL (PostgreSQL, MySQL)</li>
-      <li>Excel (Advanced)</li>
-      <li>Python (Pandas, NumPy, Matplotlib)</li>
-      <li>ETL & Data Warehousing</li>
-      <li>Financial Reporting</li>
-      <li>Power BI / Tableau</li>
-      <li>Automation (Scripts, VBA)</li>
-    </ul>
-  </section>
-
-  <!-- EXPERIENCE SECTION -->
-  <section id="experience">
-    <h3>Experience</h3>
-    <div class="timeline">
-      <div class="timeline-item">
-        <h4>Senior Data Analyst</h4>
-        <span>ABC Finance (2021 - Present)</span>
-        <ul>
-          <li>Lead data analytics for debt management division</li>
-          <li>Developed automated ETL pipelines using Python & SQL</li>
-        </ul>
-      </div>
-      <div class="timeline-item">
-        <h4>Data Analyst</h4>
-        <span>XYZ Bank (2018 - 2021)</span>
-        <ul>
-          <li>Built financial dashboards for executive reporting</li>
-          <li>Improved data quality and validation processes</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS SECTION -->
-  <section id="projects">
-    <h3>Featured Projects</h3>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h4>Debt Management Dashboard</h4>
-        <p>Interactive dashboard for tracking and forecasting debt recovery.</p>
-        <a href="https://github.com/yourusername/debt-dashboard" target="_blank">View on GitHub</a>
-      </div>
-      <div class="project-card">
-        <h4>Financial Reporting Automation</h4>
-        <p>Automated monthly financial reports for banking clients using Python.</p>
-        <a href="https://github.com/yourusername/finance-automation" target="_blank">View on GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT SECTION WITH GOOGLE MAP -->
-  <section id="contact">
-    <h3>Contact</h3>
-    <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
-      <input type="text" name="name" placeholder="Vu Trung Kien" required>
-      <input type="email" name="_replyto" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-    <div id="map" class="map"></div>
-  </section>
-
-  <footer>
-    &copy; 2025 VU TRUNG KIEN. All rights reserved.
-  </footer>
-  <script>
-    // Google Maps display for Ho Chi Minh City
-    function initMap() {
-      var hcm = {lat: 10.7769, lng: 106.7009};
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 12,
-        center: hcm
-      });
-      var marker = new google.maps.Marker({
-        position: hcm,
-        map: map,
-        title: 'Ho Chi Minh City, Vietnam'
-      });
-    }
-    window.initMap = initMap;
-  </script>
 </body>
 </html>
