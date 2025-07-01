@@ -3,53 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VU TRUNG KIEN | Data Analyst Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" crossorigin href="/my-portfolio/assets/index-BmZjEU_o.css">
+  <title>Vu Trung Kien | Data Analyst Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" crossorigin href="/my-portfolio/assets/index-Jrd3Q_Uj.css">
 </head>
 <body>
-  <div class="profile-modern-card">
-    <!-- Avatar (left) -->
-    <div class="pmc-avatar-wrap">
-      <img src="/my-portfolio/assets/avatar-C9RnrK5q.jpg" alt="VU TRUNG KIEN" class="pmc-avatar">
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-content">
+      <span class="logo">Kien Vu</span>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="#blog">Blog</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/CV_VuTrungKien.pdf" class="cv-btn" download>Download CV</a></li>
+      </ul>
     </div>
-    <!-- Main info (center) -->
-    <div class="pmc-main">
-      <h1 class="pmc-name">VU TRUNG KIEN</h1>
-      <h2 class="pmc-title">Data Analyst & Reporting Specialist</h2>
-      <div class="pmc-divider"></div>
-      <p class="pmc-summary">
-        Data Analyst specializing in ETL, reporting automation, and big data in banking & debt management.<br>
-        Strong in SQL, Python, Power BI, and process optimization. Proven at delivering actionable insights and boosting operational efficiency.
+  </nav>
+  
+  <!-- About -->
+  <section id="about" class="container about-section">
+    <img src="/my-portfolio/assets/avatar-C9RnrK5q.jpg" alt="VU TRUNG KIEN" class="about-avatar">
+    <div class="about-content">
+      <h1>VU TRUNG KIEN</h1>
+      <h2>Data Analyst | Reporting Specialist</h2>
+      <p>
+        Chuyên phân tích dữ liệu, tự động hóa báo cáo và xây dựng hệ thống ETL trong lĩnh vực tài chính, ngân hàng & quản lý nợ.<br>
+        Kỹ năng nổi bật về SQL, Python, Power BI, và tối ưu hóa quy trình xử lý dữ liệu lớn.<br>
+        Đam mê chuyển đổi dữ liệu thành insight giá trị và nâng cao hiệu quả kinh doanh.
       </p>
-      <div class="pmc-tags">
-        <span>SQL</span>
-        <span>Python</span>
-        <span>Power BI</span>
-        <span>ETL</span>
-        <span>Finance</span>
-        <span>Debt Collection</span>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container">
+    <h3>Skills</h3>
+    <ul class="skills-grid">
+      <li>SQL (PostgreSQL, SQL Server)</li>
+      <li>Python (Pandas, Numpy)</li>
+      <li>Power BI / Tableau</li>
+      <li>Data Visualization</li>
+      <li>Data Quality Control</li>
+      <li>Excel (Advanced)</li>
+      <li>ETL (Mage, SSIS)</li>
+      <li>Google BigQuery</li>
+      <li>Git & Jira</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container">
+    <h3>Featured Projects</h3>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/uber-etl.png" alt="Uber ETL Pipeline Screenshot">
+        <div>
+          <h4>ETL Pipeline for Uber Data Analysis</h4>
+          <p>Thiết kế ETL pipeline với Mage & BigQuery, xử lý 100.000+ bản ghi Uber, tạo dashboard Looker giúp dự báo nhu cầu theo vùng.<br>
+          <span class="project-impact">→ Giảm 50% thời gian xử lý thủ công</span></p>
+          <a href="https://github.com/kiezu01/uber-etl-pipeline" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="assets/finance-dashboard.png" alt="Finance Dashboard Screenshot">
+        <div>
+          <h4>Debt Management Dashboard</h4>
+          <p>Xây dựng dashboard Power BI cho quản lý thu hồi nợ, tích hợp dữ liệu đa nguồn, realtime tracking KPI.<br>
+          <span class="project-impact">→ Tối ưu phân bổ hợp đồng, tăng tỷ lệ thu hồi 15%</span></p>
+          <a href="https://github.com/kiezu01/debt-dashboard" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="assets/payment-auto.png" alt="Payment Automation Script Screenshot">
+        <div>
+          <h4>Automated Payment Reconciliation</h4>
+          <p>Tự động hóa đối soát dữ liệu thanh toán ngân hàng bằng Python & SQL.<br>
+          <span class="project-impact">→ Đạt 99% độ chính xác báo cáo tài chính</span></p>
+          <a href="https://github.com/kiezu01/payment-recon" target="_blank">View on GitHub</a>
+        </div>
       </div>
     </div>
-    <!-- Contact (right) -->
-    <div class="pmc-contact">
-      <a href="mailto:vutrungkien082002@gmail.com" class="pmc-contact-row">
-        <span class="pmc-contact-icon">📧</span>
-        <span>vutrungkien082002@gmail.com</span>
-      </a>
-      <div class="pmc-contact-row">
-        <span class="pmc-contact-icon">📞</span>
-        <span>+84-386-863-268</span>
-      </div>
-      <div class="pmc-contact-row">
-        <span class="pmc-contact-icon">📍</span>
-        <span>Ho Chi Minh City, Vietnam</span>
-      </div>
-      <a href="https://linkedin.com/in/kienvu68" class="pmc-contact-row" target="_blank">
-        <span class="pmc-contact-icon">🔗</span>
-        <span>linkedin.com/in/kienvu68</span>
-      </a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container contact-section">
+    <h3>Contact</h3>
+    <div class="contact-links">
+      <a href="mailto:vutrungkien082002@gmail.com"><span>📧</span> vutrungkien082002@gmail.com</a>
+      <a href="https://linkedin.com/in/kienvu68" target="_blank"><span>🔗</span> linkedin.com/in/kienvu68</a>
+      <a href="https://github.com/kiezu01" target="_blank"><span>🐙</span> github.com/kiezu01</a>
+      <span><span>📍</span> Ho Chi Minh City, Vietnam</span>
     </div>
-  </div>
+  </section>
 </body>
 </html>
