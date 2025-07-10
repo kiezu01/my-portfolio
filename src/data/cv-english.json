@@ -1,0 +1,43 @@
+{
+  "name": "Vu Trung Kien",
+  "title": "Data Analyst | Reporting Specialist",
+  "email": "vutrungkien082002@gmail.com",
+  "location": "Ho Chi Minh City, Vietnam",
+  "linkedin": "https://linkedin.com/in/kienvu68",
+  "github": "https://github.com/kiezu01",
+  "about": "Experienced in data analysis, report automation, and ETL system building in finance, banking & debt management. Strong skills in SQL, Python, Power BI, large-scale data processing optimization. Passionate about transforming data into valuable insights and boosting business efficiency.",
+  "skills": [
+    "SQL (PostgreSQL, SQL Server)",
+    "Python (Pandas, Numpy)",
+    "Power BI / Tableau",
+    "Data Visualization",
+    "Data Quality Control",
+    "Excel (Advanced)",
+    "ETL (Mage, SSIS)",
+    "Google BigQuery",
+    "Git & Jira"
+  ],
+  "projects": [
+    {
+      "name": "ETL Pipeline for Uber Data Analysis",
+      "description": "Designed ETL pipeline using Mage & BigQuery to process 100,000+ Uber records and build a Looker dashboard for demand forecasting by region.",
+      "impact": "Reduced manual processing time by 50%",
+      "image": "assets/uber-etl.png",
+      "link": "https://github.com/kiezu01/uber-etl-pipeline"
+    },
+    {
+      "name": "Debt Management Dashboard",
+      "description": "Built Power BI dashboard for debt collection management, integrated multi-source data, real-time KPI tracking.",
+      "impact": "Optimized contract allocation, increased collection rate by 15%",
+      "image": "assets/finance-dashboard.png",
+      "link": "https://github.com/kiezu01/debt-dashboard"
+    },
+    {
+      "name": "Automated Payment Reconciliation",
+      "description": "Automated reconciliation of bank payment data with Python & SQL.",
+      "impact": "Achieved 99% accuracy in financial reports",
+      "image": "assets/payment-auto.png",
+      "link": "https://github.com/kiezu01/payment-recon"
+    }
+  ]
+}

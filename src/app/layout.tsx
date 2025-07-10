@@ -1,5 +1,10 @@
+import { useLanguage } from "@/contexts/LanguageContext";
 import type { ReactNode } from "react";
 import "../app/globals.css";
+
+const { language, setLanguage } = useLanguage();
+
+
 
 export const metadata = {
   title: "Vu Trung Kien | Data Analyst Portfolio",
