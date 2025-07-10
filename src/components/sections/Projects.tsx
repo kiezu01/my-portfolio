@@ -1,4 +1,13 @@
 import React from "react";
+// import { Project } from "@/types/cv";
+
+// Có thể mở rộng để nhận props:
+// export interface ProjectsProps {
+//   projects: Project[];
+// }
+// const Projects: React.FC<ProjectsProps> = ({ projects }) => (
+//   ...
+// );
 
 const Projects: React.FC = () => (
   <section id="projects" className="container centered-section">

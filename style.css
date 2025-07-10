@@ -1,9 +1,4 @@
-body {
-  margin: 0;
-  font-family: 'Inter', 'Roboto', Arial, sans-serif;
-  background: #f6f8fa;
-  color: #24304a;
-}
+/* Đã chuyển toàn bộ style toàn cục sang src/app/globals.css. File này chỉ giữ lại style layout/component. */
 
 .main-nav {
   background: #18224a;
@@ -56,6 +51,11 @@ body {
   color: #f5d146;
   border-bottom: 2.5px solid #f5d146;
 }
+.nav-menu a:focus, .download-cv-btn:focus {
+  outline: 2px solid #b982fc;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #f5d14655;
+}
 .download-cv-btn {
   background: #f5d146;
   color: #18224a !important;
@@ -69,6 +69,8 @@ body {
   border-bottom: none !important;
   box-shadow: 0 1px 4px #f5d14633;
   display: inline-block;
+  /* Tăng contrast cho màu vàng trên nền trắng */
+  border: 1.5px solid #b982fc;
 }
 .download-cv-btn:hover {
   background: #fffde4;
@@ -240,7 +242,6 @@ body {
   border-radius: 6px;
   margin-bottom: 6px;
   background: #f6f8fa;
-  box-shadow: 0 1px 4px #b982fc22;
 }
 .project-card h4 {
   color: #b982fc;
@@ -295,17 +296,22 @@ body {
   }
   .projects-grid {
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
+  }
+  #skills h3, #projects h3 {
+    font-size: 1rem;
   }
 }
-
-/* Mobile nav hamburger improvement */
 @media (max-width: 600px) {
   .container {
     padding: 0 2vw;
   }
   .about-avatar-large {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
+  }
+  .skills-grid li {
+    padding: 14px 18px;
+    font-size: 1.05rem;
   }
 }

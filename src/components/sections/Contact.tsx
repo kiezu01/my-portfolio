@@ -1,5 +1,16 @@
 import React from "react";
 
+// Có thể mở rộng để nhận props:
+// export interface ContactProps {
+//   email: string;
+//   location: string;
+//   linkedin: string;
+//   github: string;
+// }
+// const Contact: React.FC<ContactProps> = ({ ... }) => (
+//   ...
+// );
+
 const Contact: React.FC = () => (
   <footer id="contact" className="footer-centered">
     <div className="footer-links">

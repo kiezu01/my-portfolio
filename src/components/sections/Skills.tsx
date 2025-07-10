@@ -1,5 +1,13 @@
 import React from "react";
 
+// Có thể mở rộng để nhận props:
+// export interface SkillsProps {
+//   skills: string[];
+// }
+// const Skills: React.FC<SkillsProps> = ({ skills }) => (
+//   ...
+// );
+
 const Skills: React.FC = () => (
   <section id="skills" className="container centered-section">
     <h3>Skills</h3>

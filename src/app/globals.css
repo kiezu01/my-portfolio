@@ -1,9 +1,22 @@
 /* Import Google Fonts nếu muốn */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@400;500&display=swap');
 
-body {
+/* Reset & global styles */
+html, body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: 'Inter', 'Roboto', Arial, sans-serif;
   background: #f6f8fa;
   color: #24304a;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary: #18224a;
+  --accent: #b982fc;
+  --yellow: #f5d146;
+  --gray-bg: #f6f8fa;
 }

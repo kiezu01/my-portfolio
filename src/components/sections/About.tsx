@@ -1,5 +1,20 @@
 import React from "react";
 
+// Hiện tại About không nhận props, nhưng có thể mở rộng:
+// export interface AboutProps {
+//   name: string;
+//   title: string;
+//   about: string;
+//   email: string;
+//   location: string;
+//   linkedin: string;
+//   github: string;
+//   avatar: string;
+// }
+// const About: React.FC<AboutProps> = ({ ... }) => (
+//   ...
+// );
+
 const About: React.FC = () => (
   <section id="about" className="about-main">
     <img src="assets/avatar.jpg" alt="VU TRUNG KIEN" className="about-avatar-large" />

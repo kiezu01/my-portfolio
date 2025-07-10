@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header: React.FC = () => (
-  <nav className="main-nav">
+  <nav className="main-nav" aria-label="Main navigation">
     <div className="nav-container">
       <span className="nav-logo">Kien Vu</span>
       <input type="checkbox" id="nav-toggle" className="nav-toggle" />
