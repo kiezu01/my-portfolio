@@ -1,25 +1,19 @@
 import React from "react";
-// import { Project } from "@/types/cv";
-
-// Có thể mở rộng để nhận props:
-// export interface ProjectsProps {
-//   projects: Project[];
-// }
-// const Projects: React.FC<ProjectsProps> = ({ projects }) => (
-//   ...
-// );
+import uberImg from "../../../assets/uber-etl.png";
+import financeImg from "../../../assets/finance-dashboard.png";
+import paymentImg from "../../../assets/payment-auto.png";
 
 const Projects: React.FC = () => (
-  <section id="projects" className="container centered-section">
+  <section id="projects" className="container centered-section fade-in" aria-label="Projects section" style={{ background: 'var(--card-bg)', color: 'var(--text)' }}>
     <h3>Featured Projects</h3>
     <div className="projects-grid">
       <div className="project-card">
-        <img src="assets/uber-etl.png" alt="Uber ETL Pipeline Screenshot" />
+        <img src={uberImg} alt="Uber ETL Pipeline Screenshot" loading="lazy" />
         <div>
           <h4>ETL Pipeline for Uber Data Analysis</h4>
           <p>
-            Thiết kế ETL pipeline với Mage &amp; BigQuery, xử lý 100.000+ bản ghi Uber, tạo dashboard Looker giúp dự báo nhu cầu theo vùng.<br />
-            <span className="project-impact">→ Giảm 50% thời gian xử lý thủ công</span>
+            Designed ETL pipeline using Mage & BigQuery to process 100,000+ Uber records and build a Looker dashboard for demand forecasting by region.<br />
+            <span className="project-impact">→ Reduced manual processing time by 50%</span>
           </p>
           <a href="https://github.com/kiezu01/uber-etl-pipeline" target="_blank" rel="noopener noreferrer">
             View on GitHub
@@ -27,12 +21,12 @@ const Projects: React.FC = () => (
         </div>
       </div>
       <div className="project-card">
-        <img src="assets/finance-dashboard.png" alt="Finance Dashboard Screenshot" />
+        <img src={financeImg} alt="Finance Dashboard Screenshot" loading="lazy" />
         <div>
           <h4>Debt Management Dashboard</h4>
           <p>
-            Xây dựng dashboard Power BI cho quản lý thu hồi nợ, tích hợp dữ liệu đa nguồn, realtime tracking KPI.<br />
-            <span className="project-impact">→ Tối ưu phân bổ hợp đồng, tăng tỷ lệ thu hồi 15%</span>
+            Built Power BI dashboard for debt collection management, integrated multi-source data, real-time KPI tracking.<br />
+            <span className="project-impact">→ Optimized contract allocation, increased collection rate by 15%</span>
           </p>
           <a href="https://github.com/kiezu01/debt-dashboard" target="_blank" rel="noopener noreferrer">
             View on GitHub
@@ -40,12 +34,12 @@ const Projects: React.FC = () => (
         </div>
       </div>
       <div className="project-card">
-        <img src="assets/payment-auto.png" alt="Payment Automation Script Screenshot" />
+        <img src={paymentImg} alt="Payment Automation Script Screenshot" loading="lazy" />
         <div>
           <h4>Automated Payment Reconciliation</h4>
           <p>
-            Tự động hóa đối soát dữ liệu thanh toán ngân hàng bằng Python &amp; SQL.<br />
-            <span className="project-impact">→ Đạt 99% độ chính xác báo cáo tài chính</span>
+            Automated reconciliation of bank payment data with Python & SQL.<br />
+            <span className="project-impact">→ Achieved 99% accuracy in financial reports</span>
           </p>
           <a href="https://github.com/kiezu01/payment-recon" target="_blank" rel="noopener noreferrer">
             View on GitHub

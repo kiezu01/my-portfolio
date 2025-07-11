@@ -9,7 +9,7 @@ import React from "react";
 // );
 
 const Skills: React.FC = () => (
-  <section id="skills" className="container centered-section">
+  <section id="skills" className="container centered-section" aria-label="Skills section" style={{ background: 'var(--card-bg)', color: 'var(--text)' }}>
     <h3>Skills</h3>
     <ul className="skills-grid">
       <li>SQL (PostgreSQL, SQL Server)</li>

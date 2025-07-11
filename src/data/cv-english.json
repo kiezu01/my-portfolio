@@ -39,5 +39,86 @@
       "image": "assets/payment-auto.png",
       "link": "https://github.com/kiezu01/payment-recon"
     }
+  ],
+  "experience": [
+    {
+      "company": "Galaxy Debt Trading Company",
+      "position": "Data Analyst",
+      "duration": "Apr 2025 – Present",
+      "description": [
+        "Managed monthly case allocation for 10+ collection teams across multiple channels, ensuring fairness and transparency in distributing over 3,500,000 contracts.",
+        "Developed and maintained centralized Datamart (PostgreSQL), building summary tables to support operational reporting and performance tracking.",
+        "Automated recovery reports using Excel, integrating MIS, payment, and follow-up data, reducing manual processing time from 2 hours to 15 minutes.",
+        "Designed SQL queries to track performance metrics by teamlead, region, last payment group, and segment.",
+        "Led weekly data quality audits, reducing allocation logic errors to below 2%.",
+        "Built PostgreSQL procedures for monitoring new phone number quality.",
+        "Collaborated with accounting to reconcile MIS and payment data, achieving over 99% accuracy in monthly financial reports."
+      ]
+    },
+    {
+      "company": "Garnet Management Company Limited",
+      "position": "Data Analyst",
+      "duration": "May 2024 – Mar 2025",
+      "description": [
+        "Designed and implemented data collection pipelines using Python and SQL, automating extraction from multi-source systems.",
+        "Developed Python scripts to automate financial data extraction from bank statements.",
+        "Built and optimized SQL allocation models, increasing debt recovery rates by 15%.",
+        "Created interactive Power BI dashboards to analyze recovery rate trends.",
+        "Optimized SQL database schemas to improve scalability.",
+        "Streamlined daily workflows by developing Python automation scripts.",
+        "Developed a KPI monitoring system in Jira, achieving 80% on-time delivery of key deliverables.",
+        "Collaborated with cross-functional teams to reconcile financial data, ensuring 99% accuracy in payment records."
+      ]
+    },
+    {
+      "company": "Collectius CMS Lawfirm",
+      "position": "MIS Analyst Intern",
+      "duration": "Oct 2023 – Jan 2024",
+      "description": [
+        "Developed 10+ BI and daily collection reports for 10 partners.",
+        "Standardized master data codes across 5+ systems and managed large databases.",
+        "Supported retrieving customer and debt profiles using SQL queries.",
+        "Performed fee reconciliation and updated payment data using Python, Excel, SQL scripts, and SSIS.",
+        "Automated monthly reporting and data processing workflows using SSIS and Python."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "SQL (Advanced Level) Certification",
+      "issuer": "HackerRank",
+      "pdf": "sql-hackerrank.pdf",
+      "image": "sql-hackerrank-thumb.png"
+    },
+    {
+      "name": "Google Data Analytics Certificate",
+      "issuer": "Google",
+      "pdf": "google-data-analytics.pdf",
+      "image": "google-data-analytics-thumb.png"
+    },
+    {
+      "name": "Google AI Essentials",
+      "issuer": "Google",
+      "pdf": "google-ai-essentials.pdf",
+      "image": "google-ai-essentials-thumb.png"
+    },
+    {
+      "name": "Udemy Advanced Excel",
+      "issuer": "Udemy",
+      "pdf": "udemy-advanced-excel.pdf",
+      "image": "udemy-advanced-excel-thumb.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Nguyen Van A",
+      "role": "Team Leader at Galaxy Debt Trading",
+      "feedback": "Kien is a highly skilled data analyst with a strong sense of responsibility. He always delivers insightful analysis and automates complex workflows efficiently."
+    },
+    {
+      "name": "Tran Thi B",
+      "role": "Manager at Garnet Management",
+      "feedback": "I was impressed by Kien's ability to optimize data pipelines and create impactful dashboards. He is a great team player and problem solver."
+    }
   ]
 }

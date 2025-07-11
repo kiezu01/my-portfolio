@@ -6,6 +6,26 @@ export interface Project {
   link: string;
 }
 
+export interface Experience {
+  company: string;
+  position: string;
+  duration: string;
+  description: string[];
+}
+
+export interface Certification {
+  name: string;
+  issuer: string;
+  pdf: string;
+  image?: string;
+}
+
+export interface Testimonial {
+  name: string;
+  role: string;
+  feedback: string;
+}
+
 export interface CVData {
   name: string;
   title: string;
@@ -16,4 +36,6 @@ export interface CVData {
   about: string;
   skills: string[];
   projects: Project[];
+  experience: Experience[];
+  certifications: Certification[];
 } 
